@@ -1,6 +1,7 @@
 # Documentación - Alke Wallet
 
-Billetera digital en Java con arquitectura en capas. Permite registrar usuarios, crear cuentas en varias monedas, depositar, retirar, convertir monedas y consultar historial de transacciones.
+Aplicación de billetera digital desarrollada en Java, estructurada bajo una arquitectura en capas. Permite registrar usuarios, crear cuentas en varias monedas, depositar, retirar, convertir monedas y visualizar historial de transacciones.
+Este proyecto fue desarrollado como parte del módulo 2, aplicando conceptos de programación orientada a objetos y buenas prácticas de diseño.
 
 ---
 
@@ -34,7 +35,7 @@ Monedas soportadas: **CLP** (Peso Chileno), **USD** (Dólar), **EUR** (Euro).
 
 ## Arquitectura en capas
 
-La aplicación sigue una **arquitectura en capas** (no solo MVC):
+El sistema está organizado mediante una arquitectura en capas** (no solo MVC):
 
 ```
 ┌─────────────────────────────────────────────────────┐
