@@ -1,12 +1,12 @@
 # Alke Wallet
 
-Billetera digital en **Java** con arquitectura en capas. Permite registrar usuarios, crear cuentas (CLP, USD, EUR), depositar, retirar, convertir monedas y consultar historial de transacciones.
+Aplicación de billetera digital desarrollada en **Java**, estructurada en capas. Permite gestionar usuarios, cuentas en distintas monedas (CLP, USD, EUR), realizar depósitos, retiros, conversiones y consultar el historial de operaciones.
 
 ## Presentación de prototipo
 
 [Link Video](https://www.youtube.com/watch?v=PWJpzSRawnI)
 
-## Inicio rápido
+## Cómo ejecutar el proyecto
 
 ```bash
 ./gradlew build    # Compilar
@@ -14,17 +14,17 @@ Billetera digital en **Java** con arquitectura en capas. Permite registrar usuar
 ./gradlew test     # Ejecutar pruebas (opción por consola)
 ```
 
-**Pruebas:** la forma recomendada es ejecutarlas desde el IDE con el botón Run (▶) de JUnit sobre las clases de test o boton derecho sobre la carpeta de tests y seleccionar **Run Tests**. Por consola: `./gradlew test`.
+**Pruebas:** pueden ejecutarse desde el IDE con el botón Run (▶) de JUnit sobre las clases de test o boton derecho sobre la carpeta de tests y seleccionar **Run Tests**. Por consola: `./gradlew test`.
 
-**Requisitos:** Java 21+, Gradle (wrapper incluido).
+**Requisitos:** Java 21 o superior, Gradle (wrapper incluido).
 
 ## Documentación
 
 | Documento | Contenido |
 |-----------|-----------|
-| **[DOCUMENTACION.md](DOCUMENTACION.md)** | Documentación completa: arquitectura, componentes, instalación, uso, SOLID |
+| **[DOCUMENTACION.md](DOCUMENTACION.md)** | Doescripción detallada del proyecto: arquitectura, componentes, instalación, uso, SOLID |
 | **[DIAGRAMA_CLASES.md](DIAGRAMA_CLASES.md)** | Diagrama de clases actualizado (capas, relaciones) |
 | **Alke Wallet Class Diagram.png** | Diagrama de clases principales |
 | **[INFORME_TESTS.md](INFORME_TESTS.md)** | Informe de pruebas unitarias (45 tests, estructura, ejecución) |
 
-Proyecto educativo · Alkemy Digital · Módulo 2 - Programación en Java · 2026
+Trabajo académico · Alkemy Digital  Programación en Java Módulo 2 · 2026
