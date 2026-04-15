@@ -1,6 +1,7 @@
 # Informe de pruebas - Alke Wallet
 
-Resumen de las pruebas unitarias del proyecto: estructura, clases de test y cómo ejecutarlas.
+Este apartado presenta una visión general de la cantidad y distribución de pruebas desarrolladas.
+Resumen general de las pruebas unitarias implementadas en el proyecto: estructura, clases de test y cómo ejecutarlas.
 
 ---
 
@@ -12,7 +13,7 @@ Resumen de las pruebas unitarias del proyecto: estructura, clases de test y cóm
 | **Clases de test** | 9       |
 | **Framework**      | JUnit 5 (Jupiter) |
 
-Las pruebas cubren modelos, servicios (cuentas, transacciones, conversión de moneda), utilidades de validación y el punto de entrada de la aplicación.
+Las pruebas se enfocan en validar modelos, servicios (cuentas, transacciones, conversión de moneda), utilidades de validación y el punto de entrada de la aplicación.
 
 ---
 
@@ -146,7 +147,7 @@ Los escenarios de negocio (depósito, retiro, conversión, validaciones, histori
 
 ## Conclusión
 
-Las **45 pruebas** distribuidas en **9 clases** validan modelos, servicios y utilidades de forma aislada. Para comprobar el estado actual:
+Las **45 pruebas** implementadas en **9 clases** permiten validar el comportamiento general de modelos, servicios y utilidades de forma aislada. Para comprobar el estado actual:
 
 - **En el IDE**: usar el Run (▶) de JUnit sobre la carpeta de tests o sobre una clase `*Test.java`.
 - **Por consola**: `./gradlew test`. El reporte HTML se genera en `app/build/reports/tests/test/index.html`.
